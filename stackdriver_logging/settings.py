@@ -47,7 +47,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'stackdriver_logging.log_middleware.LoggingMiddleware',
 ]
 
 ROOT_URLCONF = 'stackdriver_logging.urls'
